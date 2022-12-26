@@ -19,6 +19,6 @@ int Yb = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координату Zb: ");
 int Zb = Convert.ToInt32(Console.ReadLine());
 
-double d = Math.Sqrt(Math.Pow((Xb) - (Xa), 2) + Math.Pow((Yb) - (Ya), 2)+ Math.Pow((Zb) - (Za), 2));
+double d = Math.Sqrt(Math.Pow((Xb) - (Xa), 2) + Math.Pow((Yb) - (Ya), 2) + Math.Pow((Zb) - (Za), 2));
 
 Console.Write("Расстояние равно: " + Math.Round(d, 2));
